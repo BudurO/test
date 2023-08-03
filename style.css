@@ -1,0 +1,186 @@
+/* mobile */
+@media only screen and (max-width: 441px) and (min-width: 390px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "REM", sans-serif;
+  }
+  body {
+    background-color: #e3c6f1;
+  }
+  .mobele-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(246, 246, 242, 0.815);
+  }
+  .mobele-logo {
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 2rem;
+  }
+  .mobele-icon {
+    color: #cfcbcf;
+  }
+  header {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: #2f2f2f;
+  }
+  .mobele-text {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 3.2rem;
+    color: #2f2f2f;
+  }
+  .read-more {
+    display: flex;
+    justify-content: center;
+    margin: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  .read-more-button {
+    background-color: rgb(66, 66, 226);
+    color: white;
+    padding: 14px 30px 22px 14px;
+    font-size: 1.3rem;
+    border: none;
+    font-weight: 100;
+  }
+  .box-rose {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+  }
+  .box {
+    width: 300px;
+    background-color: #f234ef;
+    height: 18vh;
+    margin: 0rem;
+  }
+  .two-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .box-one {
+    width: 140px;
+    background-color: #2b3ecc;
+    height: 13vh;
+  }
+}
+.box-black {
+  display: flex;
+  justify-content: center;
+  margin: 1.2rem;
+}
+.box-black-one {
+  background-color: #1a1919;
+  width: 300px;
+  height: 100px;
+}
+.logo-ds {
+  display: none;
+}
+.nav-des,
+.sed-nav {
+  display: none;
+}
+/* desktop */
+@media only screen and (max-width: 1280px) and (min-width: 992px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .nav-des {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1919;
+    height: 4rem;
+    align-items: center;
+  }
+  .sed-nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10rem;
+  }
+  .logo-ds {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 400;
+    margin-left: 11px;
+    font-size: 2rem;
+    color: #ffffff;
+  }
+
+  .home {
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 2rem;
+    color: #f1f1f1;
+    margin-right: 2rem;
+  }
+  .about-us {
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 2rem;
+    color: #ffffff;
+  }
+  .main {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    grid-template-rows: repeat(7, auto);
+  }
+  .col-1 {
+    grid-row: 1/7;
+    grid-column: 1/7;
+  }
+  .text-des {
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #2f2f2f;
+    margin: 3.5rem;
+    margin-bottom: 1rem;
+    margin-left: 8rem;
+  }
+  .dom-des {
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #2f2f2f;
+    margin: 3.5rem;
+    margin-bottom: 1rem;
+    margin-left: 7rem;
+  }
+  .col-2 {
+    grid-row: 2/7;
+    grid-column: 6/8;
+  }
+  .read-more-des {
+    margin: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  .read-more-button-des {
+    background-color: rgb(66, 66, 226);
+    color: white;
+    padding: 20px 5rem 22px 5rem;
+    font-size: 1.3rem;
+    border: none;
+    font-weight: 100;
+  }
+  .mobele-nav,
+  .mobele-logo,
+  .mobele-icon,
+  header,
+  .mobele-text,
+  .read-more,
+  .read-more-button,
+  .box-rose,
+  .box,
+  .two-box,
+  .box-one,
+  .box-black,
+  .box-black-one {
+    display: none;
+  }
+}
